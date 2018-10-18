@@ -1,0 +1,1415 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:4xxx
+LIBS:4xxx_IEEE
+LIBS:74xgxx
+LIBS:74xx_IEEE
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:Altera
+LIBS:Amplifier_Audio
+LIBS:Amplifier_Buffer
+LIBS:Amplifier_Current
+LIBS:Amplifier_Difference
+LIBS:Amplifier_Instrumentation
+LIBS:Amplifier_Operational
+LIBS:Amplifier_Video
+LIBS:Analog
+LIBS:Analog_ADC
+LIBS:Analog_DAC
+LIBS:analog_devices
+LIBS:Analog_Switch
+LIBS:arduino
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:Comparator
+LIBS:Connector
+LIBS:Connector_Generic
+LIBS:Connector_Generic_MountingPin
+LIBS:Connector_Generic_Shielded
+LIBS:Converter_ACDC
+LIBS:Converter_DCDC
+LIBS:CPLD_Altera
+LIBS:CPLD_Xilinx
+LIBS:CPU
+LIBS:CPU_NXP_6800
+LIBS:CPU_NXP_68000
+LIBS:CPU_PowerPC
+LIBS:dc-dc
+LIBS:diode
+LIBS:Diode_Bridge
+LIBS:Diode_Laser
+LIBS:Display_Character
+LIBS:Display_Graphic
+LIBS:Driver_Display
+LIBS:Driver_FET
+LIBS:Driver_LED
+LIBS:Driver_Motor
+LIBS:Driver_Relay
+LIBS:DSP_AnalogDevices
+LIBS:DSP_Freescale
+LIBS:DSP_Microchip_DSPIC33
+LIBS:DSP_Motorola
+LIBS:DSP_Texas
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:Filter
+LIBS:FPGA_Lattice
+LIBS:FPGA_Microsemi
+LIBS:FPGA_Xilinx
+LIBS:FPGA_Xilinx_Artix7
+LIBS:FPGA_Xilinx_Kintex7
+LIBS:FPGA_Xilinx_Spartan6
+LIBS:FPGA_Xilinx_Virtex5
+LIBS:FPGA_Xilinx_Virtex6
+LIBS:FPGA_Xilinx_Virtex7
+LIBS:ftdi
+LIBS:gennum
+LIBS:GPU
+LIBS:Graphic
+LIBS:graphic_symbols
+LIBS:hc11
+LIBS:infineon
+LIBS:Interface_CAN_LIN
+LIBS:Interface_CurrentLoop
+LIBS:Interface_Ethernet
+LIBS:Interface_Expansion
+LIBS:Interface_HID
+LIBS:Interface_LineDriver
+LIBS:Interface_Optical
+LIBS:Interface_Telecom
+LIBS:Interface_UART
+LIBS:Interface_USB
+LIBS:intersil
+LIBS:ir
+LIBS:Isolator
+LIBS:Isolator_Analog
+LIBS:Jumper
+LIBS:Lattice
+LIBS:LED
+LIBS:leds
+LIBS:LEM
+LIBS:Logic_LevelTranslator
+LIBS:logic_programmable
+LIBS:maxim
+LIBS:MCU_AnalogDevices
+LIBS:MCU_Cypress
+LIBS:MCU_Espressif
+LIBS:MCU_Intel
+LIBS:MCU_Microchip_8051
+LIBS:MCU_Microchip_ATmega
+LIBS:MCU_Microchip_ATtiny
+LIBS:MCU_Microchip_AVR
+LIBS:MCU_Microchip_PIC10
+LIBS:MCU_Microchip_PIC12
+LIBS:MCU_Microchip_PIC16
+LIBS:MCU_Microchip_PIC18
+LIBS:MCU_Microchip_PIC24
+LIBS:MCU_Microchip_PIC32
+LIBS:MCU_Microchip_SAME
+LIBS:MCU_Microchip_SAML
+LIBS:MCU_Module
+LIBS:MCU_Nordic
+LIBS:MCU_NXP_ColdFire
+LIBS:MCU_NXP_HC11
+LIBS:MCU_NXP_HC12
+LIBS:MCU_NXP_HCS12
+LIBS:MCU_NXP_Kinetis
+LIBS:MCU_NXP_LPC
+LIBS:MCU_NXP_MAC7100
+LIBS:MCU_NXP_MCore
+LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
+LIBS:MCU_SiFive
+LIBS:MCU_SiliconLabs
+LIBS:MCU_ST_STM8
+LIBS:MCU_ST_STM32F0
+LIBS:MCU_ST_STM32F1
+LIBS:MCU_ST_STM32F2
+LIBS:MCU_ST_STM32F3
+LIBS:MCU_ST_STM32F4
+LIBS:MCU_ST_STM32F7
+LIBS:MCU_ST_STM32H7
+LIBS:MCU_ST_STM32L0
+LIBS:MCU_ST_STM32L1
+LIBS:MCU_ST_STM32L4
+LIBS:MCU_ST_STM32L4+
+LIBS:MCU_Texas
+LIBS:MCU_Texas_MSP430
+LIBS:mechanical
+LIBS:Memory_Controller
+LIBS:Memory_EEPROM
+LIBS:Memory_EPROM
+LIBS:Memory_Flash
+LIBS:Memory_NVRAM
+LIBS:Memory_RAM
+LIBS:Memory_ROM
+LIBS:Memory_UniqueID
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:modules
+LIBS:Motor
+LIBS:motor_drivers
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillator
+LIBS:Oscillators
+LIBS:PIC18F4525-I_P
+LIBS:Potentiometer_Digital
+LIBS:Power_Management
+LIBS:Power_Protection
+LIBS:Power_Supervisor
+LIBS:powerint
+LIBS:pspice
+LIBS:Reference_Current
+LIBS:Reference_Voltage
+LIBS:references
+LIBS:Regulator_Controller
+LIBS:Regulator_Current
+LIBS:Regulator_Linear
+LIBS:Regulator_SwitchedCapacitor
+LIBS:Regulator_Switching
+LIBS:Relay
+LIBS:Relay_SolidState
+LIBS:RF
+LIBS:RF_AM_FM
+LIBS:RF_Amplifier
+LIBS:RF_Bluetooth
+LIBS:RF_GPS
+LIBS:RF_Mixer
+LIBS:RF_Module
+LIBS:RF_RFID
+LIBS:RF_Switch
+LIBS:RF_WiFi
+LIBS:RF_ZigBee
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:Sensor
+LIBS:Sensor_Audio
+LIBS:Sensor_Current
+LIBS:Sensor_Gas
+LIBS:Sensor_Humidity
+LIBS:Sensor_Magnetic
+LIBS:Sensor_Motion
+LIBS:Sensor_Optical
+LIBS:Sensor_Pressure
+LIBS:Sensor_Proximity
+LIBS:Sensor_Temperature
+LIBS:Sensor_Touch
+LIBS:Sensor_Voltage
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:Switch
+LIBS:Timer
+LIBS:Timer_PLL
+LIBS:Timer_RTC
+LIBS:transf
+LIBS:Transformer
+LIBS:Transistor_Array
+LIBS:Transistor_BJT
+LIBS:Transistor_FET
+LIBS:Transistor_IGBT
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:Valve
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:zetex
+LIBS:Zilog
+LIBS:apoo_gift-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM555 U1
+U 1 1 5BB35343
+P 9000 2700
+F 0 "U1" H 8600 3050 50  0000 L CNN
+F 1 "LM555" H 9100 3050 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 9000 2700 50  0001 C CNN
+F 3 "" H 9000 2700 50  0001 C CNN
+	1    9000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR3
+U 1 1 5BB353C7
+P 9000 2050
+F 0 "#PWR3" H 9000 1900 50  0001 C CNN
+F 1 "VCC" H 9000 2200 50  0000 C CNN
+F 2 "" H 9000 2050 50  0001 C CNN
+F 3 "" H 9000 2050 50  0001 C CNN
+	1    9000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR4
+U 1 1 5BB353F8
+P 9000 3200
+F 0 "#PWR4" H 9000 2950 50  0001 C CNN
+F 1 "GND" H 9000 3050 50  0000 C CNN
+F 2 "" H 9000 3200 50  0001 C CNN
+F 3 "" H 9000 3200 50  0001 C CNN
+	1    9000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_POT RV1
+U 1 1 5BB35424
+P 9750 2850
+F 0 "RV1" V 9575 2850 50  0000 C CNN
+F 1 "100k" V 9650 2850 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK097_Single_Vertical" H 9750 2850 50  0001 C CNN
+F 3 "" H 9750 2850 50  0001 C CNN
+	1    9750 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C1
+U 1 1 5BB354B4
+P 9750 3150
+F 0 "C1" H 9775 3250 50  0000 L CNN
+F 1 "10uF" H 9775 3050 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm" H 9788 3000 50  0001 C CNN
+F 3 "" H 9750 3150 50  0001 C CNN
+	1    9750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR5
+U 1 1 5BB35506
+P 9750 3300
+F 0 "#PWR5" H 9750 3050 50  0001 C CNN
+F 1 "GND" H 9750 3150 50  0000 C CNN
+F 2 "" H 9750 3300 50  0001 C CNN
+F 3 "" H 9750 3300 50  0001 C CNN
+	1    9750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R1
+U 1 1 5BB35525
+P 9750 2500
+F 0 "R1" H 9780 2520 50  0000 L CNN
+F 1 "1k" H 9780 2460 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 9750 2500 50  0001 C CNN
+F 3 "" H 9750 2500 50  0001 C CNN
+	1    9750 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J1
+U 1 1 5BB35C45
+P 10300 2400
+F 0 "J1" H 10300 2500 50  0000 C CNN
+F 1 "Conn_01x02" H 10300 2200 50  0000 C CNN
+F 2 "" H 10300 2400 50  0001 C CNN
+F 3 "" H 10300 2400 50  0001 C CNN
+	1    10300 2400
+	-1   0    0    1   
+$EndComp
+Text Label 9500 2500 0    60   ~ 0
+out
+Text Label 10500 2300 0    60   ~ 0
+out
+$Comp
+L Jack-DC J2
+U 1 1 5BB35F39
+P 7650 950
+F 0 "J2" H 7650 1160 50  0000 C CNN
+F 1 "Jack-DC" H 7650 775 50  0000 C CNN
+F 2 "" H 7700 910 50  0001 C CNN
+F 3 "" H 7700 910 50  0001 C CNN
+	1    7650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR1
+U 1 1 5BB35FEA
+P 7950 850
+F 0 "#PWR1" H 7950 700 50  0001 C CNN
+F 1 "VCC" H 7950 1000 50  0000 C CNN
+F 2 "" H 7950 850 50  0001 C CNN
+F 3 "" H 7950 850 50  0001 C CNN
+	1    7950 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 5BB3600A
+P 8000 1100
+F 0 "#PWR2" H 8000 850 50  0001 C CNN
+F 1 "GND" H 8000 950 50  0000 C CNN
+F 2 "" H 8000 1100 50  0001 C CNN
+F 3 "" H 8000 1100 50  0001 C CNN
+	1    8000 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 5BB36196
+P 8400 3000
+F 0 "C2" H 8425 3100 50  0000 L CNN
+F 1 "10uF" H 8425 2900 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm" H 8438 2850 50  0001 C CNN
+F 3 "" H 8400 3000 50  0001 C CNN
+	1    8400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB375F5
+P 1700 2100
+F 0 "D?" H 1700 2200 50  0000 C CNN
+F 1 "LED" H 1700 2000 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 1700 2100 50  0001 C CNN
+F 3 "" H 1700 2100 50  0001 C CNN
+	1    1700 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB375FB
+P 2050 2100
+F 0 "D?" H 2050 2200 50  0000 C CNN
+F 1 "LED" H 2050 2000 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2050 2100 50  0001 C CNN
+F 3 "" H 2050 2100 50  0001 C CNN
+	1    2050 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB37601
+P 2400 2100
+F 0 "D?" H 2400 2200 50  0000 C CNN
+F 1 "LED" H 2400 2000 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2400 2100 50  0001 C CNN
+F 3 "" H 2400 2100 50  0001 C CNN
+	1    2400 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB37BC0
+P 3900 1300
+F 0 "D?" H 3900 1400 50  0000 C CNN
+F 1 "LED" H 3900 1200 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 3900 1300 50  0001 C CNN
+F 3 "" H 3900 1300 50  0001 C CNN
+	1    3900 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB37BC6
+P 4250 1300
+F 0 "D?" H 4250 1400 50  0000 C CNN
+F 1 "LED" H 4250 1200 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4250 1300 50  0001 C CNN
+F 3 "" H 4250 1300 50  0001 C CNN
+	1    4250 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB37BCC
+P 4600 1300
+F 0 "D?" H 4600 1400 50  0000 C CNN
+F 1 "LED" H 4600 1200 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4600 1300 50  0001 C CNN
+F 3 "" H 4600 1300 50  0001 C CNN
+	1    4600 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB37DA5
+P 4950 1300
+F 0 "D?" H 4950 1400 50  0000 C CNN
+F 1 "LED" H 4950 1200 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4950 1300 50  0001 C CNN
+F 3 "" H 4950 1300 50  0001 C CNN
+	1    4950 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB37E48
+P 5300 1300
+F 0 "D?" H 5300 1400 50  0000 C CNN
+F 1 "LED" H 5300 1200 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 5300 1300 50  0001 C CNN
+F 3 "" H 5300 1300 50  0001 C CNN
+	1    5300 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB37F95
+P 3900 1550
+F 0 "D?" H 3900 1650 50  0000 C CNN
+F 1 "LED" H 3900 1450 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 3900 1550 50  0001 C CNN
+F 3 "" H 3900 1550 50  0001 C CNN
+	1    3900 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB37F9B
+P 4250 1550
+F 0 "D?" H 4250 1650 50  0000 C CNN
+F 1 "LED" H 4250 1450 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4250 1550 50  0001 C CNN
+F 3 "" H 4250 1550 50  0001 C CNN
+	1    4250 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB37FA1
+P 4600 1550
+F 0 "D?" H 4600 1650 50  0000 C CNN
+F 1 "LED" H 4600 1450 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4600 1550 50  0001 C CNN
+F 3 "" H 4600 1550 50  0001 C CNN
+	1    4600 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB37FA9
+P 4950 1550
+F 0 "D?" H 4950 1650 50  0000 C CNN
+F 1 "LED" H 4950 1450 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4950 1550 50  0001 C CNN
+F 3 "" H 4950 1550 50  0001 C CNN
+	1    4950 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB37FAF
+P 5300 1550
+F 0 "D?" H 5300 1650 50  0000 C CNN
+F 1 "LED" H 5300 1450 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 5300 1550 50  0001 C CNN
+F 3 "" H 5300 1550 50  0001 C CNN
+	1    5300 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB38064
+P 3900 1800
+F 0 "D?" H 3900 1900 50  0000 C CNN
+F 1 "LED" H 3900 1700 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 3900 1800 50  0001 C CNN
+F 3 "" H 3900 1800 50  0001 C CNN
+	1    3900 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3806A
+P 4250 1800
+F 0 "D?" H 4250 1900 50  0000 C CNN
+F 1 "LED" H 4250 1700 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4250 1800 50  0001 C CNN
+F 3 "" H 4250 1800 50  0001 C CNN
+	1    4250 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB38070
+P 4600 1800
+F 0 "D?" H 4600 1900 50  0000 C CNN
+F 1 "LED" H 4600 1700 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4600 1800 50  0001 C CNN
+F 3 "" H 4600 1800 50  0001 C CNN
+	1    4600 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB38078
+P 4950 1800
+F 0 "D?" H 4950 1900 50  0000 C CNN
+F 1 "LED" H 4950 1700 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4950 1800 50  0001 C CNN
+F 3 "" H 4950 1800 50  0001 C CNN
+	1    4950 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3807E
+P 5300 1800
+F 0 "D?" H 5300 1900 50  0000 C CNN
+F 1 "LED" H 5300 1700 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 5300 1800 50  0001 C CNN
+F 3 "" H 5300 1800 50  0001 C CNN
+	1    5300 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB38086
+P 3900 2050
+F 0 "D?" H 3900 2150 50  0000 C CNN
+F 1 "LED" H 3900 1950 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 3900 2050 50  0001 C CNN
+F 3 "" H 3900 2050 50  0001 C CNN
+	1    3900 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3808C
+P 4250 2050
+F 0 "D?" H 4250 2150 50  0000 C CNN
+F 1 "LED" H 4250 1950 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4250 2050 50  0001 C CNN
+F 3 "" H 4250 2050 50  0001 C CNN
+	1    4250 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB38092
+P 4600 2050
+F 0 "D?" H 4600 2150 50  0000 C CNN
+F 1 "LED" H 4600 1950 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4600 2050 50  0001 C CNN
+F 3 "" H 4600 2050 50  0001 C CNN
+	1    4600 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3809A
+P 4950 2050
+F 0 "D?" H 4950 2150 50  0000 C CNN
+F 1 "LED" H 4950 1950 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4950 2050 50  0001 C CNN
+F 3 "" H 4950 2050 50  0001 C CNN
+	1    4950 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB380A0
+P 5300 2050
+F 0 "D?" H 5300 2150 50  0000 C CNN
+F 1 "LED" H 5300 1950 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 5300 2050 50  0001 C CNN
+F 3 "" H 5300 2050 50  0001 C CNN
+	1    5300 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB38267
+P 3900 2300
+F 0 "D?" H 3900 2400 50  0000 C CNN
+F 1 "LED" H 3900 2200 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 3900 2300 50  0001 C CNN
+F 3 "" H 3900 2300 50  0001 C CNN
+	1    3900 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3826D
+P 4250 2300
+F 0 "D?" H 4250 2400 50  0000 C CNN
+F 1 "LED" H 4250 2200 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4250 2300 50  0001 C CNN
+F 3 "" H 4250 2300 50  0001 C CNN
+	1    4250 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB38273
+P 4600 2300
+F 0 "D?" H 4600 2400 50  0000 C CNN
+F 1 "LED" H 4600 2200 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4600 2300 50  0001 C CNN
+F 3 "" H 4600 2300 50  0001 C CNN
+	1    4600 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3827B
+P 4950 2300
+F 0 "D?" H 4950 2400 50  0000 C CNN
+F 1 "LED" H 4950 2200 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4950 2300 50  0001 C CNN
+F 3 "" H 4950 2300 50  0001 C CNN
+	1    4950 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB38281
+P 5300 2300
+F 0 "D?" H 5300 2400 50  0000 C CNN
+F 1 "LED" H 5300 2200 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 5300 2300 50  0001 C CNN
+F 3 "" H 5300 2300 50  0001 C CNN
+	1    5300 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB38289
+P 3900 2550
+F 0 "D?" H 3900 2650 50  0000 C CNN
+F 1 "LED" H 3900 2450 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 3900 2550 50  0001 C CNN
+F 3 "" H 3900 2550 50  0001 C CNN
+	1    3900 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3828F
+P 4250 2550
+F 0 "D?" H 4250 2650 50  0000 C CNN
+F 1 "LED" H 4250 2450 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4250 2550 50  0001 C CNN
+F 3 "" H 4250 2550 50  0001 C CNN
+	1    4250 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB38295
+P 4600 2550
+F 0 "D?" H 4600 2650 50  0000 C CNN
+F 1 "LED" H 4600 2450 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4600 2550 50  0001 C CNN
+F 3 "" H 4600 2550 50  0001 C CNN
+	1    4600 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3829D
+P 4950 2550
+F 0 "D?" H 4950 2650 50  0000 C CNN
+F 1 "LED" H 4950 2450 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4950 2550 50  0001 C CNN
+F 3 "" H 4950 2550 50  0001 C CNN
+	1    4950 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB382A3
+P 5300 2550
+F 0 "D?" H 5300 2650 50  0000 C CNN
+F 1 "LED" H 5300 2450 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 5300 2550 50  0001 C CNN
+F 3 "" H 5300 2550 50  0001 C CNN
+	1    5300 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB382AB
+P 3900 2800
+F 0 "D?" H 3900 2900 50  0000 C CNN
+F 1 "LED" H 3900 2700 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 3900 2800 50  0001 C CNN
+F 3 "" H 3900 2800 50  0001 C CNN
+	1    3900 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB382B1
+P 4250 2800
+F 0 "D?" H 4250 2900 50  0000 C CNN
+F 1 "LED" H 4250 2700 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4250 2800 50  0001 C CNN
+F 3 "" H 4250 2800 50  0001 C CNN
+	1    4250 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB382B7
+P 4600 2800
+F 0 "D?" H 4600 2900 50  0000 C CNN
+F 1 "LED" H 4600 2700 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4600 2800 50  0001 C CNN
+F 3 "" H 4600 2800 50  0001 C CNN
+	1    4600 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB382BF
+P 4950 2800
+F 0 "D?" H 4950 2900 50  0000 C CNN
+F 1 "LED" H 4950 2700 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4950 2800 50  0001 C CNN
+F 3 "" H 4950 2800 50  0001 C CNN
+	1    4950 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB382C5
+P 5300 2800
+F 0 "D?" H 5300 2900 50  0000 C CNN
+F 1 "LED" H 5300 2700 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 5300 2800 50  0001 C CNN
+F 3 "" H 5300 2800 50  0001 C CNN
+	1    5300 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB38420
+P 3900 3000
+F 0 "D?" H 3900 3100 50  0000 C CNN
+F 1 "LED" H 3900 2900 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 3900 3000 50  0001 C CNN
+F 3 "" H 3900 3000 50  0001 C CNN
+	1    3900 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB38426
+P 4250 3000
+F 0 "D?" H 4250 3100 50  0000 C CNN
+F 1 "LED" H 4250 2900 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4250 3000 50  0001 C CNN
+F 3 "" H 4250 3000 50  0001 C CNN
+	1    4250 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3842C
+P 4600 3000
+F 0 "D?" H 4600 3100 50  0000 C CNN
+F 1 "LED" H 4600 2900 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4600 3000 50  0001 C CNN
+F 3 "" H 4600 3000 50  0001 C CNN
+	1    4600 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB39B0B
+P 1700 2300
+F 0 "D?" H 1700 2400 50  0000 C CNN
+F 1 "LED" H 1700 2200 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 1700 2300 50  0001 C CNN
+F 3 "" H 1700 2300 50  0001 C CNN
+	1    1700 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB39B11
+P 2050 2300
+F 0 "D?" H 2050 2400 50  0000 C CNN
+F 1 "LED" H 2050 2200 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2050 2300 50  0001 C CNN
+F 3 "" H 2050 2300 50  0001 C CNN
+	1    2050 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB39B17
+P 2400 2300
+F 0 "D?" H 2400 2400 50  0000 C CNN
+F 1 "LED" H 2400 2200 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2400 2300 50  0001 C CNN
+F 3 "" H 2400 2300 50  0001 C CNN
+	1    2400 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB39BB2
+P 1700 2500
+F 0 "D?" H 1700 2600 50  0000 C CNN
+F 1 "LED" H 1700 2400 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 1700 2500 50  0001 C CNN
+F 3 "" H 1700 2500 50  0001 C CNN
+	1    1700 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB39BB8
+P 2050 2500
+F 0 "D?" H 2050 2600 50  0000 C CNN
+F 1 "LED" H 2050 2400 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2050 2500 50  0001 C CNN
+F 3 "" H 2050 2500 50  0001 C CNN
+	1    2050 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB39BBE
+P 2400 2500
+F 0 "D?" H 2400 2600 50  0000 C CNN
+F 1 "LED" H 2400 2400 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2400 2500 50  0001 C CNN
+F 3 "" H 2400 2500 50  0001 C CNN
+	1    2400 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB39BC6
+P 1700 2700
+F 0 "D?" H 1700 2800 50  0000 C CNN
+F 1 "LED" H 1700 2600 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 1700 2700 50  0001 C CNN
+F 3 "" H 1700 2700 50  0001 C CNN
+	1    1700 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB39BCC
+P 2050 2700
+F 0 "D?" H 2050 2800 50  0000 C CNN
+F 1 "LED" H 2050 2600 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2050 2700 50  0001 C CNN
+F 3 "" H 2050 2700 50  0001 C CNN
+	1    2050 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB39BD2
+P 2400 2700
+F 0 "D?" H 2400 2800 50  0000 C CNN
+F 1 "LED" H 2400 2600 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2400 2700 50  0001 C CNN
+F 3 "" H 2400 2700 50  0001 C CNN
+	1    2400 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A2C1
+P 1700 1300
+F 0 "D?" H 1700 1400 50  0000 C CNN
+F 1 "LED" H 1700 1200 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 1700 1300 50  0001 C CNN
+F 3 "" H 1700 1300 50  0001 C CNN
+	1    1700 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A2C7
+P 2050 1300
+F 0 "D?" H 2050 1400 50  0000 C CNN
+F 1 "LED" H 2050 1200 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2050 1300 50  0001 C CNN
+F 3 "" H 2050 1300 50  0001 C CNN
+	1    2050 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A2CD
+P 2400 1300
+F 0 "D?" H 2400 1400 50  0000 C CNN
+F 1 "LED" H 2400 1200 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2400 1300 50  0001 C CNN
+F 3 "" H 2400 1300 50  0001 C CNN
+	1    2400 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A2D5
+P 1700 1500
+F 0 "D?" H 1700 1600 50  0000 C CNN
+F 1 "LED" H 1700 1400 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 1700 1500 50  0001 C CNN
+F 3 "" H 1700 1500 50  0001 C CNN
+	1    1700 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A2DB
+P 2050 1500
+F 0 "D?" H 2050 1600 50  0000 C CNN
+F 1 "LED" H 2050 1400 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2050 1500 50  0001 C CNN
+F 3 "" H 2050 1500 50  0001 C CNN
+	1    2050 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A2E1
+P 2400 1500
+F 0 "D?" H 2400 1600 50  0000 C CNN
+F 1 "LED" H 2400 1400 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2400 1500 50  0001 C CNN
+F 3 "" H 2400 1500 50  0001 C CNN
+	1    2400 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A2E9
+P 1700 1700
+F 0 "D?" H 1700 1800 50  0000 C CNN
+F 1 "LED" H 1700 1600 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 1700 1700 50  0001 C CNN
+F 3 "" H 1700 1700 50  0001 C CNN
+	1    1700 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A2EF
+P 2050 1700
+F 0 "D?" H 2050 1800 50  0000 C CNN
+F 1 "LED" H 2050 1600 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2050 1700 50  0001 C CNN
+F 3 "" H 2050 1700 50  0001 C CNN
+	1    2050 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A2F5
+P 2400 1700
+F 0 "D?" H 2400 1800 50  0000 C CNN
+F 1 "LED" H 2400 1600 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2400 1700 50  0001 C CNN
+F 3 "" H 2400 1700 50  0001 C CNN
+	1    2400 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A2FD
+P 1700 1900
+F 0 "D?" H 1700 2000 50  0000 C CNN
+F 1 "LED" H 1700 1800 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 1700 1900 50  0001 C CNN
+F 3 "" H 1700 1900 50  0001 C CNN
+	1    1700 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A303
+P 2050 1900
+F 0 "D?" H 2050 2000 50  0000 C CNN
+F 1 "LED" H 2050 1800 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2050 1900 50  0001 C CNN
+F 3 "" H 2050 1900 50  0001 C CNN
+	1    2050 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A309
+P 2400 1900
+F 0 "D?" H 2400 2000 50  0000 C CNN
+F 1 "LED" H 2400 1800 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2400 1900 50  0001 C CNN
+F 3 "" H 2400 1900 50  0001 C CNN
+	1    2400 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A67D
+P 1700 2850
+F 0 "D?" H 1700 2950 50  0000 C CNN
+F 1 "LED" H 1700 2750 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 1700 2850 50  0001 C CNN
+F 3 "" H 1700 2850 50  0001 C CNN
+	1    1700 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A683
+P 2050 2850
+F 0 "D?" H 2050 2950 50  0000 C CNN
+F 1 "LED" H 2050 2750 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2050 2850 50  0001 C CNN
+F 3 "" H 2050 2850 50  0001 C CNN
+	1    2050 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A689
+P 2400 2850
+F 0 "D?" H 2400 2950 50  0000 C CNN
+F 1 "LED" H 2400 2750 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2400 2850 50  0001 C CNN
+F 3 "" H 2400 2850 50  0001 C CNN
+	1    2400 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A691
+P 1700 3050
+F 0 "D?" H 1700 3150 50  0000 C CNN
+F 1 "LED" H 1700 2950 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 1700 3050 50  0001 C CNN
+F 3 "" H 1700 3050 50  0001 C CNN
+	1    1700 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A697
+P 2050 3050
+F 0 "D?" H 2050 3150 50  0000 C CNN
+F 1 "LED" H 2050 2950 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2050 3050 50  0001 C CNN
+F 3 "" H 2050 3050 50  0001 C CNN
+	1    2050 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A69D
+P 2400 3050
+F 0 "D?" H 2400 3150 50  0000 C CNN
+F 1 "LED" H 2400 2950 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2400 3050 50  0001 C CNN
+F 3 "" H 2400 3050 50  0001 C CNN
+	1    2400 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A6A5
+P 1700 3250
+F 0 "D?" H 1700 3350 50  0000 C CNN
+F 1 "LED" H 1700 3150 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 1700 3250 50  0001 C CNN
+F 3 "" H 1700 3250 50  0001 C CNN
+	1    1700 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A6AB
+P 2050 3250
+F 0 "D?" H 2050 3350 50  0000 C CNN
+F 1 "LED" H 2050 3150 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2050 3250 50  0001 C CNN
+F 3 "" H 2050 3250 50  0001 C CNN
+	1    2050 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A6B1
+P 2400 3250
+F 0 "D?" H 2400 3350 50  0000 C CNN
+F 1 "LED" H 2400 3150 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2400 3250 50  0001 C CNN
+F 3 "" H 2400 3250 50  0001 C CNN
+	1    2400 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A6B9
+P 1700 3450
+F 0 "D?" H 1700 3550 50  0000 C CNN
+F 1 "LED" H 1700 3350 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 1700 3450 50  0001 C CNN
+F 3 "" H 1700 3450 50  0001 C CNN
+	1    1700 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BB3A6BF
+P 2050 3450
+F 0 "D?" H 2050 3550 50  0000 C CNN
+F 1 "LED" H 2050 3350 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2050 3450 50  0001 C CNN
+F 3 "" H 2050 3450 50  0001 C CNN
+	1    2050 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5BB3B645
+P 1450 1250
+F 0 "#PWR?" H 1450 1100 50  0001 C CNN
+F 1 "VCC" H 1450 1400 50  0000 C CNN
+F 2 "" H 1450 1250 50  0001 C CNN
+F 3 "" H 1450 1250 50  0001 C CNN
+	1    1450 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 2050 9000 2300
+Wire Wire Line
+	8500 2900 8250 2900
+Wire Wire Line
+	8250 2900 8250 2100
+Wire Wire Line
+	8250 2100 9750 2100
+Connection ~ 9000 2100
+Wire Wire Line
+	9000 3100 9000 3200
+Wire Wire Line
+	8500 2500 9100 2500
+Wire Wire Line
+	9100 2500 9100 2900
+Wire Wire Line
+	9100 2900 9600 2900
+Wire Wire Line
+	9500 2700 9750 2700
+Wire Wire Line
+	9600 2850 9600 3000
+Connection ~ 9500 2900
+Wire Wire Line
+	9600 3000 9750 3000
+Connection ~ 9600 2900
+Wire Wire Line
+	9750 2700 9750 2600
+Wire Wire Line
+	9750 2100 9750 2400
+Wire Wire Line
+	7950 950  8000 950 
+Wire Wire Line
+	8000 950  8000 1100
+Wire Wire Line
+	7950 1050 8000 1050
+Connection ~ 8000 1050
+Wire Wire Line
+	8500 2700 8400 2700
+Wire Wire Line
+	8400 2700 8400 2850
+Wire Wire Line
+	8400 3150 9000 3150
+Connection ~ 9000 3150
+Wire Wire Line
+	4050 1300 4100 1300
+Wire Wire Line
+	4400 1300 4450 1300
+Wire Wire Line
+	4800 1300 4750 1300
+Wire Wire Line
+	5150 1300 5100 1300
+Wire Wire Line
+	4050 1550 4100 1550
+Wire Wire Line
+	4400 1550 4450 1550
+Wire Wire Line
+	4800 1550 4750 1550
+Wire Wire Line
+	5150 1550 5100 1550
+Wire Wire Line
+	4050 1800 4100 1800
+Wire Wire Line
+	4400 1800 4450 1800
+Wire Wire Line
+	4800 1800 4750 1800
+Wire Wire Line
+	5150 1800 5100 1800
+Wire Wire Line
+	4050 2050 4100 2050
+Wire Wire Line
+	4400 2050 4450 2050
+Wire Wire Line
+	4800 2050 4750 2050
+Wire Wire Line
+	5150 2050 5100 2050
+Wire Wire Line
+	4050 2300 4100 2300
+Wire Wire Line
+	4400 2300 4450 2300
+Wire Wire Line
+	4800 2300 4750 2300
+Wire Wire Line
+	5150 2300 5100 2300
+Wire Wire Line
+	4050 2550 4100 2550
+Wire Wire Line
+	4400 2550 4450 2550
+Wire Wire Line
+	4800 2550 4750 2550
+Wire Wire Line
+	5150 2550 5100 2550
+Wire Wire Line
+	4050 2800 4100 2800
+Wire Wire Line
+	4400 2800 4450 2800
+Wire Wire Line
+	4800 2800 4750 2800
+Wire Wire Line
+	5150 2800 5100 2800
+Wire Wire Line
+	4050 3000 4100 3000
+Wire Wire Line
+	4400 3000 4450 3000
+Wire Wire Line
+	4800 3000 4750 3000
+Wire Wire Line
+	1850 2100 1900 2100
+Wire Wire Line
+	2200 2100 2250 2100
+Wire Wire Line
+	1850 2300 1900 2300
+Wire Wire Line
+	2200 2300 2250 2300
+Wire Wire Line
+	1850 2500 1900 2500
+Wire Wire Line
+	2200 2500 2250 2500
+Wire Wire Line
+	1850 2700 1900 2700
+Wire Wire Line
+	2200 2700 2250 2700
+Wire Wire Line
+	1850 1300 1900 1300
+Wire Wire Line
+	2200 1300 2250 1300
+Wire Wire Line
+	1850 1500 1900 1500
+Wire Wire Line
+	2200 1500 2250 1500
+Wire Wire Line
+	1850 1700 1900 1700
+Wire Wire Line
+	2200 1700 2250 1700
+Wire Wire Line
+	1850 1900 1900 1900
+Wire Wire Line
+	2200 1900 2250 1900
+Wire Wire Line
+	1850 2850 1900 2850
+Wire Wire Line
+	2200 2850 2250 2850
+Wire Wire Line
+	1850 3050 1900 3050
+Wire Wire Line
+	2200 3050 2250 3050
+Wire Wire Line
+	1850 3250 1900 3250
+Wire Wire Line
+	2200 3250 2250 3250
+Wire Wire Line
+	1850 3450 1900 3450
+Wire Wire Line
+	2200 3450 2250 3450
+Wire Wire Line
+	1450 1250 1550 1250
+Wire Wire Line
+	1550 1250 1550 3450
+Connection ~ 1550 1300
+Connection ~ 1550 1500
+Connection ~ 1550 1700
+Connection ~ 1550 1900
+Connection ~ 1550 2100
+Connection ~ 1550 2300
+Connection ~ 1550 2500
+Connection ~ 1550 2700
+Connection ~ 1550 2850
+Connection ~ 1550 3050
+Connection ~ 1550 3250
+Text Notes 1650 900  0    118  ~ 24
+blue LEDs\n
+Text Notes 4250 850  0    118  ~ 24
+RED LEDs\n
+$Comp
+L VCC #PWR?
+U 1 1 5BB3E14F
+P 3650 1200
+F 0 "#PWR?" H 3650 1050 50  0001 C CNN
+F 1 "VCC" H 3650 1350 50  0000 C CNN
+F 2 "" H 3650 1200 50  0001 C CNN
+F 3 "" H 3650 1200 50  0001 C CNN
+	1    3650 1200
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
